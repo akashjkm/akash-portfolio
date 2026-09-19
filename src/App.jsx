@@ -3,6 +3,9 @@ import Typed from "typed.js";
 import AOS from "aos";
 
 import profileImage from "./assets/ak.png";
+import pdfStudio from "./assets/pdf studio.png";
+import sapphire from "./assets/sapphire.png";
+import loopGuide from "./assets/loop-guide.png";
 
 function App() {
     const typedElement = useRef(null);
@@ -121,7 +124,7 @@ function App() {
                             <i className="bx bxl-instagram"></i>
                         </a>
 
-                        <a href="akashthakur9318@gmail.com">
+                        <a href="mailto:akashthakur9318@gmail.com">
                             <i className="bx bx-envelope"></i>
                         </a>
 
@@ -359,7 +362,9 @@ function App() {
                     <div className="project-grid">
 
 
-                        {/* PROJECT 1 */}
+                        {/* =================================================
+                            PROJECT 1 - PDF STUDIO PRO
+                        ================================================== */}
 
                         <div
                             className="project-card"
@@ -367,7 +372,7 @@ function App() {
                         >
 
                             <img
-                                src="src/assets/pdf studio.png"
+                                src={pdfStudio}
                                 alt="PDF Studio Pro"
                             />
 
@@ -417,7 +422,9 @@ function App() {
                         </div>
 
 
-                        {/* PROJECT 2 */}
+                        {/* =================================================
+                            PROJECT 2 - SAPPHIRE SOFTTECH
+                        ================================================== */}
 
                         <div
                             className="project-card"
@@ -425,7 +432,7 @@ function App() {
                         >
 
                             <img
-                                src="src/assets/sapphire.png"
+                                src={sapphire}
                                 alt="Sapphire Softtech"
                             />
 
@@ -479,7 +486,9 @@ function App() {
                         </div>
 
 
-                        {/* PROJECT 3 */}
+                        {/* =================================================
+                            PROJECT 3 - THE LOOP GUIDE
+                        ================================================== */}
 
                         <div
                             className="project-card"
@@ -487,7 +496,7 @@ function App() {
                         >
 
                             <img
-                                src="src/assets/loop-guide.png"
+                                src={loopGuide}
                                 alt="The Loop Guide"
                             />
 
@@ -540,6 +549,7 @@ function App() {
 
                         </div>
 
+
                     </div>
 
                 </div>
@@ -572,7 +582,7 @@ function App() {
                     </p>
 
                     <a
-                        href="akashthakur9318@gmail.com"
+                        href="mailto:akashthakur9318@gmail.com"
                         className="btn-box"
                     >
                         Contact Me
